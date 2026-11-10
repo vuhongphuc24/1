@@ -7,7 +7,7 @@ st.set_page_config(page_title="Lab Attendance System", page_icon="📋")
 st.title("Attendance - Fuels and Clean Energy Laboratory")
 
 # Dán Web app URL MỚI CỦA ÔNG vào đây
-GAS_URL = "https://script.google.com/macros/s/AKfycb_THAY_BANG_URL_MOI_CUA_ONG/exec"
+GAS_URL = "https://script.google.com/macros/s/AKfycbxUj2TdhNlfr_DhpOxknZlATJhwbH_6bztS6uF26mpM1SJ88i_NKSdbN4bH0nhEs0J5/exec"
 
 with st.form(key="attendance_form"):
     st.subheader("1. Information")

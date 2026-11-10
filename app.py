@@ -38,7 +38,7 @@ with st.form(key="attendance_form"):
             if location_data and location_data.get('latitude') and location_data.get('longitude'):
                 lat = location_data['latitude']
                 lon = location_data['longitude']
-                location_str = f"Lat: {lat}, Lon: {lon}"
+                location_str = f"https://www.google.com/maps?q={lat},{lon}"
             
             # Process Image (Encode to Base64)
             image_bytes = photo.getvalue()
